@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>EvergreenData Question</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Nouvelle Question</h1>
+	<form action="#" th:action="@{/addQuestion}" method="POST">
+    <table>
+        <tr>
+            <td>Question:</td>
+            <td><input type='text' name='question' value=''></td>
+        </tr>
+        <tr>
+            <td><input name="submit" type="submit" value="submit" /></td>
+        </tr>
+    </table>
+	</form>
+</body>
+</html>
